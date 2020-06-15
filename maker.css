@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-image: url(/img/woodshop.jpg);
+  background-repeat: no-repeat, repeat;
+  font-family: 'Special Elite', cursive;
+  background-attachment: fixed;
+  z-index: -2;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 0.5em;
+  font-size: 4em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #464141;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+header {
+  background-color: rgb(211, 211, 211, 0.65);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  flex: 1;
+}
+
+.img-container {
+  width: 60%;
+  transition: all 0.7s ease;
+}
+
+/* .img-container:active {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .img-container:hover {
+    width: 90%;
+  }
+} */
+img {
+  width: 100%;
+  box-shadow: 10px 10px 20px #2e2c2c;
+  margin: 1em auto;
+}
+
+.images.expand {
+  width: 100%;
+}
+
+.blur {
+  z-index: -1;
+  transition: all 0.7s ease;
+}
+
+.blur.blurry {
+  backdrop-filter: blur(3px);
+}
+
+footer {
+  background-color: rgb(211, 211, 211, 0.65);
+  font-size: 2em;
+  padding: 2rem 1rem;
+}
